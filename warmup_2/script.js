@@ -11,6 +11,6 @@ function spring() {
 
 
 function reveal() {
-heading.innerHTML = "Smell the Flowers"
+heading.innerHTML = "Smell the Flowers";
 }
 

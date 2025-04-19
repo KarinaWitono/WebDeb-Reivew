@@ -4,17 +4,18 @@ var button = document.getElementById("button-1");
 
 var canvas = document.getElementById('canvas-1');
 var ctx = canvas.getContext('2d');
+var heading = document.getElementById('heading-1')
 
 canvas.width = 150;
 canvas.height = 150;
 
-ctx.beginPath()
+ctx.beginPath();
 ctx.fillStyle = "red";
 ctx.fillRect(75, 75, 50, 30);
-ctx.closePath()
+ctx.closePath();
 
-button.onclick = background
+button.onclick = background;
 
 function background () {
-    heading.innerHTML = 'Used as the title of a project'
+    heading.innerHTML = 'Used as the title of a project';
 }
