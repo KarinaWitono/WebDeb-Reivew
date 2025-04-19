@@ -12,3 +12,9 @@ ctx.beginPath()
 ctx.fillStyle = "red";
 ctx.fillRect(75, 75, 50, 30);
 ctx.closePath()
+
+button.onclick = background
+
+function background () {
+    heading.innerHTML = 'Used as the title of a project'
+}
