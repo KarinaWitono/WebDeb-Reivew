@@ -1,0 +1,28 @@
+body {
+    height: 100px;
+    align-items: center; 
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.spring-container {
+    text-align: center;
+    border: 6px red;
+    padding: 25px;
+    background-color: lavenderblush;
+}
+
+#spring-heading {
+    color: skyblue;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#spring-button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+
+}

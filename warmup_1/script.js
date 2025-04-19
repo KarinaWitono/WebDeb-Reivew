@@ -1,4 +1,4 @@
-console.log('Hello World')
+
 
 var button = document.getElementById("button-1");
 
@@ -9,6 +9,6 @@ canvas.width = 150;
 canvas.height = 150;
 
 ctx.beginPath()
-ctx.fillStyle = "blue";
+ctx.fillStyle = "red";
 ctx.fillRect(75, 75, 50, 30);
 ctx.closePath()
